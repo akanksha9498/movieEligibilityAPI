@@ -1,4 +1,4 @@
-package com.myFirstAPI.demo;
+package com.customer.movie.booking;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

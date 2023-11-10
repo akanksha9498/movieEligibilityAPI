@@ -1,6 +1,7 @@
-package com.myFirstAPI.demo.model;
+package com.customer.movie.booking.model;
 
 import javax.persistence.Entity;
+import javax.validation.constraints.Pattern;
 
 
 /**
@@ -13,18 +14,12 @@ private String middleName;
 private int age;
 private String address;
 private String movieType;
+private char gender;
+private String pinCode;
+@Pattern(regexp = "^[0-9]{10}$", message = "Invalid mobile number")
+private String contactNumber;
 
-    public String getGender() {
-        return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
-
-    private String gender;
-
-    public String getFirstName() {
+public String getFirstName() {
         return firstName;
     }
 
@@ -72,6 +67,31 @@ private String movieType;
 
     public void setMovieType(String movieType) {
         this.movieType = movieType;
+    }
+
+    public char getGender() {
+        return gender;
+    }
+
+    public void setGender(char gender) {
+        this.gender = gender;
+    }
+
+    public String getPinCode() {
+        return pinCode;
+    }
+
+    public void setPinCode(String pinCode) {
+        this.pinCode = pinCode;
+    }
+
+
+    public String getContactNumber() {
+        return contactNumber;
+    }
+
+    public void setContactNumber(String contactNumber) {
+        this.contactNumber = contactNumber;
     }
 
     @Override

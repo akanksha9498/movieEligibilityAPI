@@ -1,4 +1,4 @@
-package com.myFirstAPI.demo;
+package com.customer.movie.booking;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

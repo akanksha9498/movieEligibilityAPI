@@ -1,6 +1,4 @@
-package com.myFirstAPI.demo.model;
-
-import org.springframework.web.bind.annotation.ResponseStatus;
+package com.customer.movie.booking.model;
 
 public class CustomerResponse {
 

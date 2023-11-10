@@ -1,4 +1,4 @@
-package com.myFirstAPI.demo.model;
+package com.customer.movie.booking.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
